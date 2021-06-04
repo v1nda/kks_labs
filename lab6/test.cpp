@@ -63,7 +63,7 @@ int main(int argc, char const *argv[])
                 print_vector(indexes);
                 std::cout << std::endl;
 
-                std::cout << "[Rabin-Kapr algorithm] ><>" << std::endl;
+                std::cout << "[Rabin-Kapr ><> algorithm]" << std::endl;
                 std::cout << "Occurrence indexes > ";
 
                 indexes = finite_state_machine(sigma[i], str[i], substr[i]);
