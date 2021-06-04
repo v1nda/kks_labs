@@ -51,7 +51,7 @@ std::vector<std::map<char, u_int>> table_building(std::vector<char> &sigma, std:
         return table;
 }
 
-std::vector<u_int> state_machine(std::vector<char> &sigma, std::string s, std::string p)
+std::vector<u_int> finite_state_machine(std::vector<char> &sigma, std::string s, std::string p)
 {
         u_int statement = 0;
         std::vector<std::map<char, u_int>> table = table_building(sigma, p);
